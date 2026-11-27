@@ -74,7 +74,7 @@ export default function Landing() {
     const [activeSection, setActiveSection] = useState("");
     const [previewTab, setPreviewTab] = useState("Projects");
 
-    // ================= ACTIVE NAV LINK =================
+    // ACTIVE NAV LINK 
     useEffect(() => {
         function updateActiveNavigation() {
             let currentSection = "";
